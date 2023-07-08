@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body{
+    background:antiquewhite;
+}
+*{
+    margin:0;
+    padding:0;
+}
+nav{
+    font-family: 'Ubuntu','Sans-serif';
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 55px;
+    background-color: black;
+    color:white;
+    align-items: center;
+}
+nav ul li{
+    padding:0 16px;
+}
+.brand img{
+    width:44px;
+    padding:0 8px;
+
+}
+.brand{
+    display:flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 73vh;
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* display: flex; */
+    margin: 23px auto;
+    width:70%;
+    border-radius: 14px;
+    padding:34px;
+    background-image: url(bg.jpg);
+}
+.bottom{
+    position: sticky;
+    height: 120px;
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+.icons{
+    margin:14px;
+}
+.icons i{
+    cursor: pointer;
+}
+#myprogressbar{
+    width:80vw;
+    margin-top: 14px;
+    cursor: pointer;
+
+}
+.songItem{
+    height: 50px;
+   display: flex;
+    background-color:white;
+    color:black;
+    width:55%;
+    float: left;
+margin:12px 0;
+justify-content: space-between;
+align-items: center;
+border-radius: 24px;
+}
+.songItem:hover{
+    background-color: rgb(142, 62, 62);
+}
+.songItem img{
+    height:54px;
+    width:54px;
+    border-radius: 34px;
+    
+
+
+}
+.timestamp{
+    padding:10px;
+    margin:0 23px;
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songInfo{
+    position: absolute;
+    left:8vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+.btn{
+    border-radius: 40%;
+    width:19.5px;
+    height: 24px;
+    border-color: aliceblue;
+}
+.btn:hover{
+    background-color:rgb(87, 116, 138);
+}
+.masterbutton{
+    border-radius: 45%;
+    width:58px;
+    background-color: white;
+    border-color: black;
+    
+}
+i:hover{
+    background-color:white;
+}
+.songItem a{
+    text-decoration: none;
+    color:black;
+    
+}
